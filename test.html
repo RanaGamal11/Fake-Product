@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <form id="loginForm">
+        <div id="kLogin">
+            <h1 class="head">Login</h1>
+            
+            <div id="email">
+                <label class="labelText" for="inputEmail">Email:
+                    <span class="fst-italic px-2 text-secondary">"admin@admin.com"</span>
+                </label>
+                <input type="email" placeholder="email" id="inputEmail" class="and">
+                <small class="error-message" id="emailError"></small>
+            </div>
+            
+            <div id="password">
+                <label class="labelText" for="inputPassword">Password:
+                    <span class="fst-italic px-2 text-secondary">"admin"</span>
+                </label>
+                <input type="password" placeholder="password" id="inputPassword" class="and">
+                <small class="error-message" id="passwordError"></small>
+            </div>
+            
+            <div id="checkboox">
+                <input type="checkbox" id="tcheck">
+                <span>Show password</span>
+            </div>
+            
+            <div id="mybtn">
+                <button type="button" id="button">Sign in</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="test.js"></script>
+</body>
+</html>

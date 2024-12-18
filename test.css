@@ -1,0 +1,69 @@
+body {
+    background-color: darkseagreen;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#kLogin {
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+}
+
+#email, #password {
+    text-align: start;
+    color: #8f8f8f;
+}
+
+.head {
+    margin-bottom: 30px;
+    color: darkseagreen;
+    padding-bottom: 10px;
+}
+
+#inputEmail, #inputPassword {
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#checkboox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+button {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}
+
+a {
+    color: darkseagreen;
+}
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+    display: block;
+}
+
+input.and {
+    margin-bottom: 5px; /* Adjust spacing to make room for error messages */
+}
